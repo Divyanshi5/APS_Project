@@ -402,7 +402,7 @@ int main()
         //cout<<"7)Display whole heap"<<endl;       
         cout<<"7)Union"<<endl;
         cout<<"8)Exit"<<endl;
-        cout<<"Enter Your Choice: ";
+        cout<<"Enter Your Choice as integer: ";
         cin>>choice;
         switch(choice)
         {

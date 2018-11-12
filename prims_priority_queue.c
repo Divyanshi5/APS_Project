@@ -117,13 +117,13 @@ void selftest1()
     int a,b,c;
     while (myfile >> a)
     {
-        cout<<"inside myfile"<<endl;
+    //cout<<"inside myfile"<<endl;
 		myfile >> b;
 		myfile >> c;	
 		g.addEdge(a,b,c);
         
     } 
-    cout<<"outside while"<<endl;
+   // cout<<"outside while"<<endl;
    
      clock_t t;
     t = clock();

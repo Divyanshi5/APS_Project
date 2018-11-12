@@ -79,7 +79,7 @@ void display()
   
     else
     { 
-        cout << "The root nodes of Heap are: " << endl; 
+        cout << "The root nodes of Heap are: " << endl;         
         struct node *temp=minptr;
         temp=temp->right;
         if(temp==NULL)
@@ -88,7 +88,7 @@ void display()
         {
         	while(temp!=minptr)
         	{
-        		cout<<temp->data<<" ";
+        		cout<<temp->data<<"-->";
         		temp=temp->right;
         	}
         	cout<<minptr->data<<endl;
